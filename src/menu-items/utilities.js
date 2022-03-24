@@ -1,5 +1,5 @@
 // assets
-import { IconTypography, IconPalette, IconShadow, IconWindmill } from '@tabler/icons';
+import { IconTypography, IconPalette, IconShadow, IconWindmill, IconBuildingBank } from '@tabler/icons';
 
 // constant
 const icons = {
@@ -30,6 +30,14 @@ const utilities = {
             type: 'item',
             url: '/utils/util-color',
             icon: icons.IconPalette,
+            breadcrumbs: false
+        },
+        {
+            id: 'util-company',
+            title: 'Companies',
+            type: 'item',
+            url: '/util/util-companies',
+            icon: IconBuildingBank,
             breadcrumbs: false
         },
         {
